@@ -21,8 +21,11 @@ function App() {
  
   return (
     <>
+   
    <script src='https://unpkg.com/feather-icons'></script>
-      <nav>
+
+   {/* navbar */}
+       <nav>
          <ul className=' bg-[#02042A]  w-full  px-4   ' >
          <div className=' relative w-[1080px]  mx-auto flex items-center  space-x-10  '>
           
@@ -100,9 +103,9 @@ function App() {
 
          </div>
         </ul>
-      </nav>
+       </nav>
        
-
+   {/* first section */}
        <section className='relative  bg-deepBlue'>
        
        <div className='flex w-11/12 max-w-[1080px] flex-row   justify-between  items-center  mx-auto  '>
@@ -123,7 +126,7 @@ function App() {
         <img src={heroshape} width='500' height='80' className='w-full ' />
         </div>
        </section>
-      
+   {/* first section */}  
       <section className='relative mt-60 overflow-hidden'>
       <img src={dot} width='233' height='167' loading='lazy' className=' absolute -top-[8rem] left-[10rem] inline-block -z-10   '/>
 
@@ -411,9 +414,7 @@ function App() {
 
 
       </section>
-          
-      
-          
+   {/* second section */}           
       <section  className=' bg-[url(./Images/feature-section-2BG.svg)]  bg-no-repeat bg-cover overflow-x-hidden pb-[350px] mt-14 pt-[10rem]'>
         {/* This is a single-line comment in JSX */}
           {/* top level container */}
@@ -711,13 +712,8 @@ className='w-full min-h-[15rem] relative cursor-pointer featureCard2'
 
 
       </section>
-
-       
-
-      
-
-            
-  <section className='bg-white relative'>
+    {/* third section */}      
+      <section className='bg-white relative'>
   <div className='relative w-11/12 max-w-[1080px] mx-auto pt-4'>
       <img src={dot} alt=""
       className='absolute w-[233px] left-[300px] -top-[6rem] z-10'/>
@@ -849,7 +845,7 @@ className='w-full min-h-[15rem] relative cursor-pointer featureCard2'
           </div>
       </div>
   </div>
-</section>
+      </section>
   
 
     </>
